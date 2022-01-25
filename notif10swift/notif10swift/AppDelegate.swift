@@ -83,7 +83,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         print("APPDELEGATE: didReceiveResponseWithCompletionHandler \(response.notification.request.content.userInfo)")
         
         // if you wish CleverTap to record the notification open and fire any deep links contained in the payload
-        CleverTap.sharedInstance().handleNotification(withData: response.notification.request.content.userInfo)
+        CleverTap.sharedInstance()?.handleNotification(withData: response.notification.request.content.userInfo)
         
         completionHandler()
     

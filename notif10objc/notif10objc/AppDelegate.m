@@ -3,6 +3,8 @@
 #import "AppDelegate.h"
 #import <UserNotifications/UserNotifications.h>
 #import <CleverTapSDK/CleverTap.h>
+#import <CleverTapSDK/CleverTap+ProductConfig.h>
+
 
 @interface AppDelegate() <UNUserNotificationCenterDelegate>
 
@@ -16,6 +18,8 @@
     [CleverTap setDebugLevel:CleverTapLogDebug];
     [CleverTap autoIntegrate];
     [self registerPush];
+    CleverTapProductConfig *productConfig = [[CleverTap sharedInstance] productConfig];
+
     return YES;
 }
 

@@ -1,117 +1,77 @@
+<p align="center">
+  <img src="/docs/images/clevertap-logo.png" width = "50%"/>
+</p>
+
 # CleverTap iOS SDK  
-[![CI Status](http://img.shields.io/travis/CleverTap/clevertap-ios-sdk.svg?style=flat)](https://travis-ci.org/CleverTap/clevertap-ios-sdk)
+[![CI Status](https://api.travis-ci.org/CleverTap/clevertap-ios-sdk.svg?branch=master)](https://travis-ci.org/CleverTap/clevertap-ios-sdk)
 [![Version](https://img.shields.io/cocoapods/v/CleverTap-iOS-SDK.svg?style=flat)](http://cocoapods.org/pods/CleverTap-iOS-SDK)
 [![License](https://img.shields.io/cocoapods/l/CleverTap-iOS-SDK.svg?style=flat)](http://cocoapods.org/pods/CleverTap-iOS-SDK)
 [![Platform](https://img.shields.io/cocoapods/p/CleverTap-iOS-SDK.svg?style=flat)](http://cocoapods.org/pods/CleverTap-iOS-SDK)
+![iOS 8.0+](https://img.shields.io/badge/iOS-9.0%2B-blue.svg)
+![tvOS 9.0+](https://img.shields.io/badge/tvOS-9.0%2B-blue.svg)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg)](https://swift.org/package-manager/)
 
-The CleverTap iOS SDK for App Personalization and Engagement  
+## 👋 Introduction
 
-CleverTap is the next generation app engagement platform. It enables marketers to identify, engage and retain users and provides developers with unprecedented code-level access to build dynamic app experiences for multiple user groups. CleverTap includes out-of-the-box prescriptive campaigns, omni-channel messaging, uninstall data and the industry's largest FREE messaging tier.
+The CleverTap iOS SDK for Mobile Customer Engagement and Analytics solutions
 
-For more information check out our [website](https://clevertap.com "CleverTap") and [documentation](http://support.clevertap.com "CleverTap Technical Documentation").
+CleverTap brings together real-time user insights, an advanced segmentation engine, and easy-to-use marketing tools in one mobile marketing platform — giving your team the power to create amazing experiences that deepen customer relationships. Our intelligent mobile marketing platform provides the insights you need to keep users engaged and drive long-term retention and growth.
 
-## Getting Started
+For more information check out our  [website](https://clevertap.com/ "CleverTap")  and  [documentation](https://developer.clevertap.com/docs/ "CleverTap Technical Documentation").
 
-1. Sign Up
+To get started, sign up [here](https://clevertap.com/live-product-demo/)
 
-    [Sign up](https://clevertap.com/sign-up) for a free account.  
+## 📋 Requirements
+Following are required for using CleverTap iOS SDK -
+- iOS 9.0 or later
+- tvOS 9.0 or later
+- Xcode 10.0 or later
 
-2.  Install the Framework
+## 🎉 Installation
 
-    Starting with v3.0.0, the SDK adds support for App Extensions and watchOS apps.  Starting with v3.1.3, the SDK adds support for tvOS.
+Details about the different installation methods
 
-    - **Install Using [CocoaPods](http://cocoapods.org)**
+1. [CocoaPods](/docs/CocoaPods.md)
+2. [Swift Package Manager](/docs/SwiftPackageManager.md)
+3. [Carthage](/docs/Carthage.md)
+4. [Manual Installation](/docs/Manual.md)
 
-        For just the basic SDK functionality in your main app, add the following to your Podfile:
+## 🚀 Integration
 
-        ```
-        target 'YOUR_TARGET_NAME' do  
-            pod 'CleverTap-iOS-SDK'  
-         end     
-         ```
+#### Add your CleverTap account credentials
 
-        If your main app is also a watchOS Host, and you wish to capture custom events from your watchOS app, set the `CLEVERTAP_HOST_WATCHOS` Preprocessor Macro in your Xcode build settings and add this:
+Update your .plist file:
 
-        ```
-        target 'YOUR_WATCH_EXTENSION_TARGET_NAME' do  
-             pod 'CleverTapWatchOS'  
-        end
-        ```
-        
-        If you wish to capture custom events from your main App Extension target(s), also add the following to your Podfile:
+* Create a key called **CleverTapAccountID** with a string value
+* Create a key called **CleverTapToken** with a string value
+* Insert the values from your CleverTap [Dashboard](https://dashboard.clevertap.com) -> Settings -> Integration Details.
 
-        ```
-        target 'YOUR_APP_EXTENSION_TARGET_NAME' do  
-            pod 'CleverTap-iOS-SDK', :subspecs => ['AppEx']  
-        end
-        ```
+For more details, refer to our [installation guide](https://developer.clevertap.com/docs/ios-quickstart-guide) for instructions on installing and using our iOS SDK in your project.
 
+## 📲 Rich Push Notifications
 
-        For tvOS apps, add this:
+Apart from Title and Message, you have the below-mentioned options to add to your iOS push notification. Please note that each of these is optional.
+- [CTNotificationService](https://github.com/CleverTap/CTNotificationService)
+- [CTNotificationContent](https://github.com/CleverTap/CTNotificationContent)
 
-        ```
-        target 'YOUR_TVOS_TARGET_NAME' do  
-            pod 'CleverTap-iOS-SDK', :subspecs => ['tvOS']  
-         end     
-         ```
+For more details, refer to our [Advanced iOS Push Notifications](https://developer.clevertap.com/docs/ios#section-advanced-ios-push-notifications) guide.
 
-        Then run `pod install`.
+## 📍 Geofence 
 
-        [See example Podfile here](https://github.com/CleverTap/ios-10-demo/blob/master/Podfile)
+CleverTap Geofence SDK provides Geofencing capabilities to CleverTap iOS SDK. To find the installation & integration steps for CleverTap Geofence SDK, click [here](https://github.com/CleverTap/clevertap-geofence-ios).
 
+## 𝌡 Example Usage
+* A [demo application](/ObjCStarter) showing the integration of our SDK in Objective-C language.
+* A [demo application](/SwiftStarter) showing the integration of our SDK in Swift language.
+* A [demo application](/SPMStarter) showing the installation of our SDK via Swift Package Manager.
 
-    - **Manually Install the Framework** 
+## 🆕 Change Log
 
-        For just the basic SDK functionality in your main app:
+Refer to the [CleverTap iOS SDK Change Log](/CHANGELOG.md).
 
-         - Download the latest framework [release](https://github.com/CleverTap/clevertap-ios-sdk/releases). Unzip the download.
+## 📄 License
 
-         - Add the CleverTapSDK.framework to your Xcode Project, by dragging the CleverTapSDK.framework directory into your Project Navigator.
-
-         - Add the following frameworks to your Xcode Project: 
-            - SystemConfiguration
-            - CoreTelephony
-            - UIKit
-            - CoreLocation
-
-        If your main app is also a watchOS Host, and you wish to capture custom events from your watchOS app:
-        
-        - follow the steps above, and set the `CLEVERTAP_HOST_WATCHOS` Preprocessor Macro in your Xcode build settings.
-        - add [the CleverTapWatchOS Swift framework](https://github.com/CleverTap/clevertap-ios-sdk/tree/master/CleverTapWatchOS) to your watchOS Extension target(s). 
-
-        If you also wish to capture custom events from your main App Extension target(s):
-
-        - add the CleverTapAppEx.framework to those target(s)
-
-        For tvOS:
-        - add the CleverTapTVOS.framework to your tvOS target.
-
-3. Add Your CleverTap Account Credentials
-
-    Update your .plist file:
-
-    * Create a key called CleverTapAccountID with a string value
-    * Create a key called CleverTapToken with a string value
-    * Insert the values from your CleverTap [Dashboard](https://dashboard.clevertap.com) -> Settings -> Integration Details.
+CleverTap iOS SDK is released under the MIT license. See [LICENSE](https://github.com/CleverTap/clevertap-ios-sdk/blob/master/LICENSE) for details.
 
 
-    ![plist account values](http://staging.support.wizrocket.com.s3-website-eu-west-1.amazonaws.com/images/integration/plist-account.png)
-
-### Swift
-
-1. Follow the Install and Add Your CleverTap Account Credentials steps above.  
-2. Starting with v3.1.3, the SDK includes a modulemap so you no longer need to add a bridging header. Just import CleverTapSDK (or CleverTapAppEx, or CleverTapTVOS, as applicable). 
-3. For prior versions add a bridging header as follows:  
- - Add the [CleverTapSDK-Bridging-Header.h](https://github.com/CleverTap/clevertap-ios-sdk/blob/master/SwiftStarterProject/CleverTapSDK-Bridging-Header.h) (rename to YOUR-PROJECT-NAME-Bridging-Header.h, if you like) to your project.  
- - Add the path to that Bridging-Header.h in the Objective-C Bridging Header section of your project's Build Settings.  
-
-Alternatively, add the contents of the CleverTapSDK-Bridging-Header.h to your existing Bridging Header file.    
-
-## Example Usage
-To run the example StarterProject, clone the repo, and run `pod install` from the StarterProject directory.  Then open the StarterProject.xcworkspace, add your CleverTap account credentials to the Info.plist and build and run.
-For Swift, please refer to the SwiftStarterProject. 
-
-For non-CocoaPods folks, check out the example StarterProjectManualInstall.  
-For Swift, please refer to the SwiftStarterProjectManualInstall example. 
-
-For App Extension and watchOS usage, [please refer to this demo project](https://github.com/CleverTap/ios-10-demo).

@@ -28,9 +28,9 @@
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>CleverTapAccountID</key>
-	<string>W48-Z79-K74Z</string>
+	<string>TEST-Z67-96W-R46Z</string>
 	<key>CleverTapToken</key>
-	<string>ca1-b40</string>
+	<string>TEST-06c-a61</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIBackgroundModes</key>

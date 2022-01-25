@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23858116ECB041B376BE68CA /* Pods_notif10objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C7B24A795A0A9B8FD5740C /* Pods_notif10objc.framework */; };
+		25616F11ECB2A0BF712AF30D /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980E6E825F53D66BC2437F16 /* Pods_NotificationService.framework */; };
 		523373E51D8B4EB10034579B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523373E41D8B4EB10034579B /* main.m */; };
 		523373E81D8B4EB20034579B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523373E71D8B4EB20034579B /* AppDelegate.m */; };
 		523373EE1D8B4EB20034579B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523373EC1D8B4EB20034579B /* Main.storyboard */; };
@@ -17,7 +17,7 @@
 		523374051D8B59300034579B /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 523374041D8B59300034579B /* NotificationService.m */; };
 		523374091D8B59300034579B /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 523374011D8B59300034579B /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52F40BED1D8B6F08003D0EB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523373EA1D8B4EB20034579B /* ViewController.m */; };
-		9FD70BC33EAF7FD0F9398352 /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B61A90D50B69FBE4D6322C4 /* Pods_NotificationService.framework */; };
+		8EFE1B20AF1CEEF003060A6A /* Pods_notif10objc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C9A4CD5F7AD01CE5DAA27F /* Pods_notif10objc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		053F60867AB27B203FFD4930 /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
-		0B61A90D50B69FBE4D6322C4 /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4765B870ED2EE07E3051A0A9 /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
 		523373E01D8B4EB10034579B /* notif10objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notif10objc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		523373E41D8B4EB10034579B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		523373E61D8B4EB10034579B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,10 +62,11 @@
 		523374041D8B59300034579B /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
 		523374061D8B59300034579B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5233740E1D8B5B480034579B /* notif10objc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notif10objc.entitlements; sourceTree = "<group>"; };
-		6DE78D7F21426246BE48E692 /* Pods-notif10objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notif10objc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-notif10objc/Pods-notif10objc.debug.xcconfig"; sourceTree = "<group>"; };
-		7BEDB12B293FF04E99111EBF /* Pods-notif10objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notif10objc.release.xcconfig"; path = "Pods/Target Support Files/Pods-notif10objc/Pods-notif10objc.release.xcconfig"; sourceTree = "<group>"; };
-		BC0DEB25EAE1907EB32C8C30 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
-		D3C7B24A795A0A9B8FD5740C /* Pods_notif10objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notif10objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C9A4CD5F7AD01CE5DAA27F /* Pods_notif10objc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notif10objc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EEAA7BA3AA3B7992EA98F3 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		980E6E825F53D66BC2437F16 /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6130F423016CFD9F9316617 /* Pods-notif10objc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notif10objc.release.xcconfig"; path = "Target Support Files/Pods-notif10objc/Pods-notif10objc.release.xcconfig"; sourceTree = "<group>"; };
+		CF17A9F213FD20672EC4574A /* Pods-notif10objc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notif10objc.debug.xcconfig"; path = "Target Support Files/Pods-notif10objc/Pods-notif10objc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23858116ECB041B376BE68CA /* Pods_notif10objc.framework in Frameworks */,
+				8EFE1B20AF1CEEF003060A6A /* Pods_notif10objc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,21 +82,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FD70BC33EAF7FD0F9398352 /* Pods_NotificationService.framework in Frameworks */,
+				25616F11ECB2A0BF712AF30D /* Pods_NotificationService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C34DBF5DFF3984AC04B44C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4765B870ED2EE07E3051A0A9 /* Pods-NotificationService.debug.xcconfig */,
+				97EEAA7BA3AA3B7992EA98F3 /* Pods-NotificationService.release.xcconfig */,
+				CF17A9F213FD20672EC4574A /* Pods-notif10objc.debug.xcconfig */,
+				C6130F423016CFD9F9316617 /* Pods-notif10objc.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		523373D71D8B4EB10034579B = {
 			isa = PBXGroup;
 			children = (
 				523373E21D8B4EB10034579B /* notif10objc */,
 				523374021D8B59300034579B /* NotificationService */,
 				523373E11D8B4EB10034579B /* Products */,
-				C1A22293DE119A007EDF28DB /* Pods */,
-				A63DE77EEF726459B32311A9 /* Frameworks */,
+				2C34DBF5DFF3984AC04B44C3 /* Pods */,
+				D101E398C7A9123E37EA20A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,24 +165,13 @@
 			path = NotificationService;
 			sourceTree = "<group>";
 		};
-		A63DE77EEF726459B32311A9 /* Frameworks */ = {
+		D101E398C7A9123E37EA20A2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D3C7B24A795A0A9B8FD5740C /* Pods_notif10objc.framework */,
-				0B61A90D50B69FBE4D6322C4 /* Pods_NotificationService.framework */,
+				980E6E825F53D66BC2437F16 /* Pods_NotificationService.framework */,
+				74C9A4CD5F7AD01CE5DAA27F /* Pods_notif10objc.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C1A22293DE119A007EDF28DB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6DE78D7F21426246BE48E692 /* Pods-notif10objc.debug.xcconfig */,
-				7BEDB12B293FF04E99111EBF /* Pods-notif10objc.release.xcconfig */,
-				053F60867AB27B203FFD4930 /* Pods-NotificationService.debug.xcconfig */,
-				BC0DEB25EAE1907EB32C8C30 /* Pods-NotificationService.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,12 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 523373F71D8B4EB20034579B /* Build configuration list for PBXNativeTarget "notif10objc" */;
 			buildPhases = (
-				1F3C035F424BFFF288B51936 /* [CP] Check Pods Manifest.lock */,
+				029E1F7ABE0B26E351202E30 /* [CP] Check Pods Manifest.lock */,
 				523373DC1D8B4EB10034579B /* Sources */,
 				523373DD1D8B4EB10034579B /* Frameworks */,
 				523373DE1D8B4EB10034579B /* Resources */,
-				1A012319535811E801772CE2 /* [CP] Embed Pods Frameworks */,
 				5233740D1D8B59300034579B /* Embed App Extensions */,
+				05AED3A8DFE49970FAA5B745 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -201,7 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5233740A1D8B59300034579B /* Build configuration list for PBXNativeTarget "NotificationService" */;
 			buildPhases = (
-				73D1B0FAC0B25609EC3F0789 /* [CP] Check Pods Manifest.lock */,
+				8044FABC2931EFC54143AE6F /* [CP] Check Pods Manifest.lock */,
 				523373FD1D8B59300034579B /* Sources */,
 				523373FE1D8B59300034579B /* Frameworks */,
 				523373FF1D8B59300034579B /* Resources */,
@@ -221,12 +222,12 @@
 		523373D81D8B4EB10034579B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = CleverTap;
 				TargetAttributes = {
 					523373DF1D8B4EB10034579B = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = A5J34NR598;
+						DevelopmentTeam = 7XM67G79YA;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -239,7 +240,7 @@
 					};
 					523374001D8B59300034579B = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = A5J34NR598;
+						DevelopmentTeam = 7XM67G79YA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -249,6 +250,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -285,34 +287,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A012319535811E801772CE2 /* [CP] Embed Pods Frameworks */ = {
+		029E1F7ABE0B26E351202E30 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-notif10objc/Pods-notif10objc-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CTNotificationService/CTNotificationService.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTNotificationService.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notif10objc/Pods-notif10objc-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1F3C035F424BFFF288B51936 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-notif10objc-checkManifestLockResult.txt",
 			);
@@ -321,16 +309,42 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		73D1B0FAC0B25609EC3F0789 /* [CP] Check Pods Manifest.lock */ = {
+		05AED3A8DFE49970FAA5B745 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-notif10objc/Pods-notif10objc-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CleverTap-iOS-SDK/CleverTapSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/CTNotificationService/CTNotificationService.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CleverTapSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTNotificationService.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-notif10objc/Pods-notif10objc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8044FABC2931EFC54143AE6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-NotificationService-checkManifestLockResult.txt",
 			);
@@ -394,6 +408,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -414,6 +429,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -439,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -451,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -471,6 +488,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -490,7 +508,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,40 +518,40 @@
 		};
 		523373F81D8B4EB20034579B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DE78D7F21426246BE48E692 /* Pods-notif10objc.debug.xcconfig */;
+			baseConfigurationReference = CF17A9F213FD20672EC4574A /* Pods-notif10objc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = notif10objc/notif10objc.entitlements;
-				DEVELOPMENT_TEAM = A5J34NR598;
+				DEVELOPMENT_TEAM = 7XM67G79YA;
 				INFOPLIST_FILE = notif10objc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10objc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.jideshnew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		523373F91D8B4EB20034579B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BEDB12B293FF04E99111EBF /* Pods-notif10objc.release.xcconfig */;
+			baseConfigurationReference = C6130F423016CFD9F9316617 /* Pods-notif10objc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = notif10objc/notif10objc.entitlements;
-				DEVELOPMENT_TEAM = A5J34NR598;
+				DEVELOPMENT_TEAM = 7XM67G79YA;
 				INFOPLIST_FILE = notif10objc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10objc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.jideshnew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		5233740B1D8B59300034579B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 053F60867AB27B203FFD4930 /* Pods-NotificationService.debug.xcconfig */;
+			baseConfigurationReference = 4765B870ED2EE07E3051A0A9 /* Pods-NotificationService.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = A5J34NR598;
+				DEVELOPMENT_TEAM = 7XM67G79YA;
 				INFOPLIST_FILE = NotificationService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10objc.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.jideshnew.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -541,12 +559,12 @@
 		};
 		5233740C1D8B59300034579B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC0DEB25EAE1907EB32C8C30 /* Pods-NotificationService.release.xcconfig */;
+			baseConfigurationReference = 97EEAA7BA3AA3B7992EA98F3 /* Pods-NotificationService.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = A5J34NR598;
+				DEVELOPMENT_TEAM = 7XM67G79YA;
 				INFOPLIST_FILE = NotificationService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10objc.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.jideshnew.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

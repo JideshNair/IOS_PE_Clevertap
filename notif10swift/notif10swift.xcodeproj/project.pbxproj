@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		302023279FD8B4F75F09F85D /* Pods_notif10swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54D13480E07EA2742DBB86C6 /* Pods_notif10swift.framework */; };
-		4C4E5205CD9DC2574DB53C49 /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B9408C10311428807141D6 /* Pods_NotificationService.framework */; };
+		2929ADF3279E909F0042AF32 /* DBClevertapProductConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929ADF2279E909F0042AF32 /* DBClevertapProductConfigManager.swift */; };
 		529F94341D8B36DE00FDC5E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F94331D8B36DE00FDC5E1 /* AppDelegate.swift */; };
 		529F94361D8B36DE00FDC5E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529F94351D8B36DE00FDC5E1 /* ViewController.swift */; };
 		529F94391D8B36DE00FDC5E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529F94371D8B36DE00FDC5E1 /* Main.storyboard */; };
@@ -17,6 +16,8 @@
 		52CB1D8F1D8B3FE400D6D083 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CB1D8E1D8B3FE400D6D083 /* logo.png */; };
 		52CB1D971D8B40C500D6D083 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB1D961D8B40C500D6D083 /* NotificationService.swift */; };
 		52CB1D9B1D8B40C500D6D083 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 52CB1D941D8B40C400D6D083 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DEFE8156F9C2ED342A04BEC4 /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D238AFBA0386ED321CB93D69 /* Pods_NotificationService.framework */; };
+		F4863A1585EBE066A62379DC /* Pods_notif10swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691F6243FF28356714FAB298 /* Pods_notif10swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04B9408C10311428807141D6 /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17054817728B936DFCDF5503 /* Pods-notif10swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notif10swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-notif10swift/Pods-notif10swift.debug.xcconfig"; sourceTree = "<group>"; };
+		2929ADF2279E909F0042AF32 /* DBClevertapProductConfigManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DBClevertapProductConfigManager.swift; path = ../../../../Downloads/DBClevertapProductConfigManager.swift; sourceTree = "<group>"; };
 		523373D61D8B48A90034579B /* notif10swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = notif10swift.entitlements; sourceTree = "<group>"; };
 		529F94301D8B36DE00FDC5E1 /* notif10swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notif10swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		529F94331D8B36DE00FDC5E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +58,12 @@
 		52CB1D941D8B40C400D6D083 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		52CB1D961D8B40C500D6D083 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		52CB1D981D8B40C500D6D083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54D13480E07EA2742DBB86C6 /* Pods_notif10swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notif10swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FB0B1984EBD9855520AE725 /* Pods-notif10swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notif10swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-notif10swift/Pods-notif10swift.release.xcconfig"; sourceTree = "<group>"; };
-		DEC5B7C4DB67DA24AE6AC511 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
-		FF400A842A7753DF3653A01D /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		691F6243FF28356714FAB298 /* Pods_notif10swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notif10swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		794AA39A337459515464F383 /* Pods-notif10swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notif10swift.release.xcconfig"; path = "Target Support Files/Pods-notif10swift/Pods-notif10swift.release.xcconfig"; sourceTree = "<group>"; };
+		B1445E2A6766097DD9650F7D /* Pods-notif10swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notif10swift.debug.xcconfig"; path = "Target Support Files/Pods-notif10swift/Pods-notif10swift.debug.xcconfig"; sourceTree = "<group>"; };
+		B2F3BA9592B83C4E64B30346 /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		D238AFBA0386ED321CB93D69 /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D63768ECA82B0301B7398786 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302023279FD8B4F75F09F85D /* Pods_notif10swift.framework in Frameworks */,
+				F4863A1585EBE066A62379DC /* Pods_notif10swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,32 +79,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C4E5205CD9DC2574DB53C49 /* Pods_NotificationService.framework in Frameworks */,
+				DEFE8156F9C2ED342A04BEC4 /* Pods_NotificationService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		522813E32D65C1BE574404F5 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				17054817728B936DFCDF5503 /* Pods-notif10swift.debug.xcconfig */,
-				8FB0B1984EBD9855520AE725 /* Pods-notif10swift.release.xcconfig */,
-				FF400A842A7753DF3653A01D /* Pods-NotificationService.debug.xcconfig */,
-				DEC5B7C4DB67DA24AE6AC511 /* Pods-NotificationService.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		529F94271D8B36DD00FDC5E1 = {
 			isa = PBXGroup;
 			children = (
 				529F94321D8B36DE00FDC5E1 /* notif10swift */,
 				52CB1D951D8B40C500D6D083 /* NotificationService */,
 				529F94311D8B36DE00FDC5E1 /* Products */,
-				522813E32D65C1BE574404F5 /* Pods */,
-				C645D60A9B1E83D39BFDE664 /* Frameworks */,
+				C59A237FE87169CB75D10029 /* Pods */,
+				E0479F59DF477570DF2854C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +113,7 @@
 				52CB1D8D1D8B3FE400D6D083 /* images */,
 				529F94331D8B36DE00FDC5E1 /* AppDelegate.swift */,
 				529F94351D8B36DE00FDC5E1 /* ViewController.swift */,
+				2929ADF2279E909F0042AF32 /* DBClevertapProductConfigManager.swift */,
 				529F94371D8B36DE00FDC5E1 /* Main.storyboard */,
 				529F943A1D8B36DE00FDC5E1 /* Assets.xcassets */,
 				529F943C1D8B36DE00FDC5E1 /* LaunchScreen.storyboard */,
@@ -147,11 +139,22 @@
 			path = NotificationService;
 			sourceTree = "<group>";
 		};
-		C645D60A9B1E83D39BFDE664 /* Frameworks */ = {
+		C59A237FE87169CB75D10029 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				54D13480E07EA2742DBB86C6 /* Pods_notif10swift.framework */,
-				04B9408C10311428807141D6 /* Pods_NotificationService.framework */,
+				B2F3BA9592B83C4E64B30346 /* Pods-NotificationService.debug.xcconfig */,
+				D63768ECA82B0301B7398786 /* Pods-NotificationService.release.xcconfig */,
+				B1445E2A6766097DD9650F7D /* Pods-notif10swift.debug.xcconfig */,
+				794AA39A337459515464F383 /* Pods-notif10swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0479F59DF477570DF2854C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D238AFBA0386ED321CB93D69 /* Pods_NotificationService.framework */,
+				691F6243FF28356714FAB298 /* Pods_notif10swift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 529F94421D8B36DE00FDC5E1 /* Build configuration list for PBXNativeTarget "notif10swift" */;
 			buildPhases = (
-				41D4227B6BA493DF095791FA /* [CP] Check Pods Manifest.lock */,
+				DD5584CBC3A2BB0870AA04C8 /* [CP] Check Pods Manifest.lock */,
 				529F942C1D8B36DE00FDC5E1 /* Sources */,
 				529F942D1D8B36DE00FDC5E1 /* Frameworks */,
 				529F942E1D8B36DE00FDC5E1 /* Resources */,
 				52CB1D9F1D8B40C500D6D083 /* Embed App Extensions */,
-				5816D2F84332FB249370D335 /* [CP] Embed Pods Frameworks */,
+				25C3BFBF201DD8772D880BD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,7 +187,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52CB1D9C1D8B40C500D6D083 /* Build configuration list for PBXNativeTarget "NotificationService" */;
 			buildPhases = (
-				9F24C861DFD0A82D8D42DEF3 /* [CP] Check Pods Manifest.lock */,
+				20D807D828855B0F3017B7DC /* [CP] Check Pods Manifest.lock */,
 				52CB1D901D8B40C400D6D083 /* Sources */,
 				52CB1D911D8B40C400D6D083 /* Frameworks */,
 				52CB1D921D8B40C400D6D083 /* Resources */,
@@ -205,12 +208,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1310;
 				ORGANIZATIONNAME = CleverTap;
 				TargetAttributes = {
 					529F942F1D8B36DE00FDC5E1 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = A5J34NR598;
+						DevelopmentTeam = 7XM67G79YA;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -224,7 +227,7 @@
 					};
 					52CB1D931D8B40C400D6D083 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = A5J34NR598;
+						DevelopmentTeam = 7XM67G79YA;
 						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
@@ -235,6 +238,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -271,54 +275,66 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41D4227B6BA493DF095791FA /* [CP] Check Pods Manifest.lock */ = {
+		20D807D828855B0F3017B7DC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-notif10swift-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NotificationService-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5816D2F84332FB249370D335 /* [CP] Embed Pods Frameworks */ = {
+		25C3BFBF201DD8772D880BD3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-notif10swift/Pods-notif10swift-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-notif10swift/Pods-notif10swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CleverTap-iOS-SDK/CleverTapSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/CTNotificationService/CTNotificationService.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CleverTapSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTNotificationService.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notif10swift/Pods-notif10swift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-notif10swift/Pods-notif10swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9F24C861DFD0A82D8D42DEF3 /* [CP] Check Pods Manifest.lock */ = {
+		DD5584CBC3A2BB0870AA04C8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NotificationService-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-notif10swift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				529F94361D8B36DE00FDC5E1 /* ViewController.swift in Sources */,
+				2929ADF3279E909F0042AF32 /* DBClevertapProductConfigManager.swift in Sources */,
 				529F94341D8B36DE00FDC5E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -399,6 +417,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -424,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -438,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -458,6 +478,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -477,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -488,15 +509,15 @@
 		};
 		529F94431D8B36DE00FDC5E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17054817728B936DFCDF5503 /* Pods-notif10swift.debug.xcconfig */;
+			baseConfigurationReference = B1445E2A6766097DD9650F7D /* Pods-notif10swift.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = notif10swift/notif10swift.entitlements;
-				DEVELOPMENT_TEAM = A5J34NR598;
+				DEVELOPMENT_TEAM = 7XM67G79YA;
 				INFOPLIST_FILE = notif10swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10swift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10swiftjidesh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -506,15 +527,15 @@
 		};
 		529F94441D8B36DE00FDC5E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FB0B1984EBD9855520AE725 /* Pods-notif10swift.release.xcconfig */;
+			baseConfigurationReference = 794AA39A337459515464F383 /* Pods-notif10swift.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = notif10swift/notif10swift.entitlements;
-				DEVELOPMENT_TEAM = A5J34NR598;
+				DEVELOPMENT_TEAM = 7XM67G79YA;
 				INFOPLIST_FILE = notif10swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10swift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10swiftjidesh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -524,12 +545,12 @@
 		};
 		52CB1D9D1D8B40C500D6D083 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF400A842A7753DF3653A01D /* Pods-NotificationService.debug.xcconfig */;
+			baseConfigurationReference = B2F3BA9592B83C4E64B30346 /* Pods-NotificationService.debug.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = A5J34NR598;
+				DEVELOPMENT_TEAM = 7XM67G79YA;
 				INFOPLIST_FILE = NotificationService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10swift.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10swiftjidesh.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -539,12 +560,12 @@
 		};
 		52CB1D9E1D8B40C500D6D083 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEC5B7C4DB67DA24AE6AC511 /* Pods-NotificationService.release.xcconfig */;
+			baseConfigurationReference = D63768ECA82B0301B7398786 /* Pods-NotificationService.release.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = A5J34NR598;
+				DEVELOPMENT_TEAM = 7XM67G79YA;
 				INFOPLIST_FILE = NotificationService/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10swift.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clevertap.notif10swiftjidesh.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
