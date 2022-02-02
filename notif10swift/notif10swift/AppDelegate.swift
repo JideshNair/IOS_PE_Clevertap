@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         CleverTap.setDebugLevel(CleverTapLogLevel.debug.rawValue)
         CleverTap.autoIntegrate()
         // register for push notifications
+        
         self.registerPush()
         return true
     }
@@ -31,7 +32,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
             }
         }
     }
-    
+  
+
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
         print("open url \(url)")
         return true
